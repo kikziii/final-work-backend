@@ -9,7 +9,7 @@ RUN npm install -g nodemon
 EXPOSE 3002
 
 ENV NODE_ENV=development
-ENV DATABASE=mongodb://mongodb:27017/final-work-backend
+ENV DATABASE=mongodb://mongodb:27017/fungi
 ENV PORT=3002
 
 ENTRYPOINT ["tail", "-f", "/dev/null"]
